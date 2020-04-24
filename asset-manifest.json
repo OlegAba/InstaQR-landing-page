@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/instaqr-landing-page/static/css/main.d1b05096.chunk.css",
-    "main.js": "/instaqr-landing-page/static/js/main.462f738d.chunk.js",
-    "main.js.map": "/instaqr-landing-page/static/js/main.462f738d.chunk.js.map",
-    "runtime-main.js": "/instaqr-landing-page/static/js/runtime-main.a1a6ad51.js",
-    "runtime-main.js.map": "/instaqr-landing-page/static/js/runtime-main.a1a6ad51.js.map",
-    "static/js/2.2856b80b.chunk.js": "/instaqr-landing-page/static/js/2.2856b80b.chunk.js",
-    "static/js/2.2856b80b.chunk.js.map": "/instaqr-landing-page/static/js/2.2856b80b.chunk.js.map",
-    "index.html": "/instaqr-landing-page/index.html",
-    "precache-manifest.cfb00925bfc98d38947ae3264b3ec29e.js": "/instaqr-landing-page/precache-manifest.cfb00925bfc98d38947ae3264b3ec29e.js",
-    "service-worker.js": "/instaqr-landing-page/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/instaqr-landing-page/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.2856b80b.chunk.js.LICENSE.txt": "/instaqr-landing-page/static/js/2.2856b80b.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/instaqr-landing-page/static/media/logo.5d5d9eef.svg"
+    "main.css": "/InstaQR-landing-page/static/css/main.d1b05096.chunk.css",
+    "main.js": "/InstaQR-landing-page/static/js/main.87f76e2c.chunk.js",
+    "main.js.map": "/InstaQR-landing-page/static/js/main.87f76e2c.chunk.js.map",
+    "runtime-main.js": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js",
+    "runtime-main.js.map": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js.map",
+    "static/js/2.2856b80b.chunk.js": "/InstaQR-landing-page/static/js/2.2856b80b.chunk.js",
+    "static/js/2.2856b80b.chunk.js.map": "/InstaQR-landing-page/static/js/2.2856b80b.chunk.js.map",
+    "index.html": "/InstaQR-landing-page/index.html",
+    "precache-manifest.8b316b5b4dae90b962e3457bca7e6d83.js": "/InstaQR-landing-page/precache-manifest.8b316b5b4dae90b962e3457bca7e6d83.js",
+    "service-worker.js": "/InstaQR-landing-page/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/InstaQR-landing-page/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.2856b80b.chunk.js.LICENSE.txt": "/InstaQR-landing-page/static/js/2.2856b80b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/InstaQR-landing-page/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a1a6ad51.js",
+    "static/js/runtime-main.f20795a2.js",
     "static/js/2.2856b80b.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.462f738d.chunk.js"
+    "static/js/main.87f76e2c.chunk.js"
   ]
 }
