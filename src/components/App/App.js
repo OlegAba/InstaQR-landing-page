@@ -1,24 +1,41 @@
 import React, {Component} from 'react';
-import {Accordion, Card} from 'react-bootstrap'
-//import Accordion from '../Accordion/Accordion';
+import Accordion from '../../components/Accordion/Accordion'
+import AccordionItem from '../../components/Accordion/AccordionItem'
+import faqs from '../../data/faqs.json'
+
+import IosAdd from 'react-ionicons/lib/IosAdd'
+import IosRemove from 'react-ionicons/lib/IosRemove'
 import './App.css';
 
-// Rewrite with proper indentation
-
 class App extends Component {
+
+  state = {
+    activeIndex: -1
+  }
+
+  handleClick = (index) => {
+    const newIndex = this.state.activeIndex == index ? -1 : index
+
+    this.setState({
+      activeIndex: newIndex
+    })
+  }
+  
   render() {
-    return (
+    return (      
       <div className="App">
-        <Accordion>
-          <Card>
-            <Accordion.Toggle as={Card.Header} eventKey="0">
-              Question
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="0">
-              <Card.Body>Answer</Card.Body>
-            </Accordion.Collapse>
-          </Card>
-        </Accordion>
+        <div className="faqs-container">
+          {faqs.map((faq, index) => (
+            <AccordionItem 
+            header={faq.question} 
+            body={faq.answer} 
+            isOpen={this.state.activeIndex == index} 
+            key={index}
+            index={index}
+            handleClick = {this.handleClick}
+            />
+          ))}
+        </div>
       </div>
     );
   }
