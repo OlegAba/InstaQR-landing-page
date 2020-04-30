@@ -1,4 +1,7 @@
 import React, {Component} from 'react';
+import IosAdd from 'react-ionicons/lib/IosAdd'
+import IosRemove from 'react-ionicons/lib/IosRemove'
+import './AccordionItem.css';
 
 class AccordionItem extends Component {
   render() {
@@ -9,6 +12,7 @@ class AccordionItem extends Component {
       >
         <div className="header">
           {this.props.header}
+          {this.props.isOpen ? <IosRemove /> : <IosAdd />}
         </div>
         <div className="body">
           {this.props.body}

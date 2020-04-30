@@ -1,0 +1,17 @@
+.AccordionItem {
+    background-color: green;
+    border-radius: .4rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.header {
+    background-color: hotpink;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
