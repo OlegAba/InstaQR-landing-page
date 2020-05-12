@@ -1,17 +1,52 @@
 .AccordionItem {
-    background-color: green;
-    border-radius: .4rem;
-    margin-bottom: 1rem;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-top: 1rem;
     padding: 1rem;
     cursor: pointer;
 }
 
 .header {
-    background-color: hotpink;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.header h2 {
+    font-size: 14px;
+    flex: 15 0 0;
+    padding-right: 1rem;
+}
+
+.AnimateHeight p {
+    padding: 16px 0 0 16px;
+    font-size: 14px;
+    border-top: 1px solid white;
+
+    /* Removes margin-bottom bug caused by AnimateHeight */
+    margin-bottom: 0 !important;
+}
+
+.arrow-icon {
+    flex: 1 0 0;
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+}
+
+.open {
+    transition: 400ms;
+    -webkit-transition: 400ms;
+    -moz-transition: 400ms;
+    -ms-transition: 400ms;
+    -o-transition: 400ms;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}

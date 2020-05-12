@@ -10,7 +10,7 @@ class App extends Component {
   }
 
   handleClick = (index) => {
-    const newIndex = this.state.activeIndex == index ? -1 : index
+    const newIndex = this.state.activeIndex === index ? -1 : index
 
     this.setState({
       activeIndex: newIndex
@@ -21,12 +21,14 @@ class App extends Component {
     return (      
       <div className="App">
         <div className="faqs-container">
-          <h1>FAQ</h1>
+          <div className="header-container">
+            <h1>Frequently Asked Questions</h1>
+          </div>
           {faqs.map((faq, index) => (
             <AccordionItem 
             header={faq.question} 
             body={faq.answer} 
-            isOpen={this.state.activeIndex == index} 
+            isOpen={this.state.activeIndex === index} 
             key={index}
             index={index}
             handleClick = {this.handleClick.bind(this)}

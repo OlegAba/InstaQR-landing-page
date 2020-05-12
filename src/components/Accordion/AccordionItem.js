@@ -1,22 +1,27 @@
 import React, {Component} from 'react';
-import IosAdd from 'react-ionicons/lib/IosAdd'
-import IosRemove from 'react-ionicons/lib/IosRemove'
+import AnimateHeight from 'react-animate-height';
+import IosArrowDown from 'react-ionicons/lib/IosArrowDown';
 import './AccordionItem.css';
 
 class AccordionItem extends Component {
   render() {
     return (
-      <div 
-      className={"AccordionItem " + (this.props.isOpen ? 'open' : '')}
+      <div
+      className={"AccordionItem"}
       onClick={() => this.props.handleClick(this.props.index)}
       >
         <div className="header">
-          {this.props.header}
-          {this.props.isOpen ? <IosRemove /> : <IosAdd />}
+          <h2>{this.props.header}</h2>
+          <IosArrowDown 
+          className={"arrow-icon " + (this.props.isOpen ? 'open' : '')} />
         </div>
-        <div className="body">
-          {this.props.body}
-        </div>
+
+        <AnimateHeight 
+          duration={400} 
+          height={this.props.isOpen ? 'auto' : 0}
+          className="AnimateHeight" >
+          <p>{this.props.body}</p>
+        </AnimateHeight>
       </div>
     )
   }
