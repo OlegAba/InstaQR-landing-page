@@ -16,9 +16,10 @@
   font-size: 24px;
 }
 
-.faqs-container {
+.max-width-container {
   width: 100%;
   max-width: 1024px;
   margin: 0 auto;
+  margin-top: 50px;
   padding: 0 24px;
 }

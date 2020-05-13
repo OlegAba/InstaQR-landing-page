@@ -1,8 +1,57 @@
 [
-    {"question": "Nisi et cillum aute veniam enim esse nisi duis velit ut elit adipisicing aliquip. Laborum deserunt proident velit sit ullamco amet excepteur et consequat. Nulla non laboris laboris proident incididunt dolor Lorem et non dolore.", "answer": "Id laborum consectetur ipsum voluptate occaecat id fugiat Lorem aute ullamco exercitation. Excepteur aliquip culpa aute fugiat voluptate id fugiat do proident esse incididunt. Consectetur ad laboris quis exercitation ullamco duis sint anim eu et ut et deserunt labore. Velit eu duis exercitation magna magna. Esse quis anim nulla irure labore ut excepteur velit velit."},
-    {"question": "question2", "answer": "In ea in anim aliquip aute ea. Nulla ut occaecat ullamco proident proident occaecat. Sit esse sunt qui ea consectetur ipsum consectetur voluptate. Ex duis eu irure nostrud minim qui minim ea deserunt laborum dolore nulla non. Voluptate aliquip id ex et ex aute exercitation occaecat voluptate duis aliquip sint culpa. Lorem laboris ullamco id id nulla proident voluptate velit consequat laborum. Laboris Lorem incididunt veniam cupidatat nostrud commodo enim."},
-    {"question": "question3", "answer": "Ex enim voluptate exercitation occaecat id incididunt cillum. Ea veniam sit reprehenderit nostrud deserunt. Amet amet dolore aliquip labore irure. Dolor et ipsum ex anim esse minim. Consequat exercitation laboris incididunt duis ullamco non velit commodo anim Lorem occaecat nisi ea aliqua. Qui in velit sunt aute non dolore enim proident nulla cillum ea sint nostrud. Labore consequat excepteur ipsum Lorem sunt amet nisi ea aliquip ea ad."},
-    {"question": "question4", "answer": "Magna irure sit ea consectetur anim proident aliqua culpa tempor. Dolor culpa et in nulla ut Lorem aliquip sit quis veniam non esse id. Laborum nulla fugiat culpa dolor eiusmod occaecat consequat duis adipisicing."},
-    {"question": "question5", "answer": "Nulla reprehenderit elit incididunt quis proident id eiusmod ea Lorem sint aute commodo exercitation. Aliqua nisi velit tempor incididunt. Voluptate nisi esse nisi cupidatat sunt id consectetur laborum excepteur mollit Lorem."}
+    {
+        "question": "What does InstaQR do?", 
+        "answer": 
+                [
+                    "InstaQR generates a live wallpaper by combining an image of your choice with a scannable QR code. The QR code stores your share action (any link such as a social media profile) and stays hidden until the live wallpaper is activated by pressing into the screen.",
+                    "Most smartphones nowadays natively support the scanning of QR codes which allows you to share anything, all without leaving your lock screen. Simply ask the person you would like to share your action with to open their camera app and point it at the QR code."
+                ]
+    },
+    {
+        "question": "How do I set my generated live wallpaper as my lock screen wallpaper?", 
+        "answer": 
+                [
+                    "Once you have generated a live wallpaper and saved it to your phone do the following,",
+                    "1. Open the \"Settings\" app",
+                    "2. Scroll down and tap on \"Wallpaper\"",
+                    "3. Tap on \"Choose on a New Wallpaper\"",
+                    "4. Find and tap the saved live wallpaper",
+                    "5. Press on the screen and make sure the QR code is clearly visible",
+                    "6. Tap on \"Set\"",
+                    "7. Tap on \"Set Lock Screen\" or \"Set Both\""
+                ]
+    },
+    {
+        "question": "How do I share my data with another person using the generated live wallpaper?",
+        "answer":
+                [
+                    "Your data or the share action is stored in the hidden QR code that is part of your live wallpaper. While your phone is locked, press into the screen to reveal the QR code. Ask the person you would like to share the data with to open their camera app or favorite QR code scanner app and point it at code.",
+                    "If the other person has an iPhone or iPad with iOS 11 or higher, then all they have to do is launch their camera app and point it at the QR code. The share action will automatically launch on their phone.",
+                    "Not all Android devices natively support the scanning of QR codes from the camera app. Additional services or third-party apps might be required."
+                ]
+    },
+    {
+        "question": "Why is my wallpaper blurry when the QR code is revealed?",
+        "answer": [ "When setting a live photo as a wallpaper, the phone's operating system processes the video portion of the live photo and downscales it to optimize memory. Unfortunately, there is nothing we can do to stop or mitigate this process." ]
+    },
+    {
+        "question": "I have accidentally denied photo or camera permission to InstaQR. How can i fix this?",
+        "answer": 
+                [
+                    "You will need to change the permission from your \"Settings\" app by doing the following,",
+                    "1. Open the \"Settings\" app",
+                    "2. Scroll down and tap on \"InstaQR\"",
+                    "3. Tap on \"Photos\" and make sure \"Read and Write\" is selected",
+                    "4. Make sure the \"Camera\" row is toggled on as well"
+                ]
+    },
+    {
+        "question": "Why is nothing happening when I press into my live wallpaper on the lock screen?",
+        "answer": [ "When setting the generated live wallpaper as your lock screen wallpaper, make sure \"Live Photo\" is on. The button to toggle this option is located at the bottom-center of the screen (second from the left). If the QR code is still not showing after this, you likely have an older device that does not support live photos. An iPhone 6S/Plus or above is required." ]
+    },
+    {
+        "question": "Why does the QR code expand and get cropped when my live wallpaper is activated?",
+        "answer": [ "The video portion (where the QR code is located) of a live photo expands by about 8%. Make sure to preview the QR code when setting the wallpaper and make sure it is not getting cropped." ]
+    }
 ]
 

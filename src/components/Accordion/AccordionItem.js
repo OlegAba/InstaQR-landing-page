@@ -17,11 +17,12 @@ class AccordionItem extends Component {
           color={"#c7c7cd"} />
         </div>
 
-        <AnimateHeight 
-          duration={400} 
-          height={this.props.isOpen ? 'auto' : 0}
-          className="AnimateHeight" >
-          <p>{this.props.body}</p>
+        <AnimateHeight duration={400} height={this.props.isOpen ? 'auto' : 0} >
+          <div className="body-container">
+            {this.props.body.map((paragraph, _) => (
+              <p>{paragraph}</p>
+            ))}
+          </div>
         </AnimateHeight>
       </div>
     )

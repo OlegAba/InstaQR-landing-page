@@ -6,12 +6,19 @@
     overflow: hidden;
 }
 
+.AccordionItem:hover {
+    -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.3);
+}
+
 .header {
     width: 100%;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* border-bottom: 1px solid white; */
 }
 
 .header h2 {
@@ -22,10 +29,14 @@
     margin-bottom: 0;
 }
 
-.AnimateHeight p {
-    padding: 20px;
-    font-size: 14px;
+.body-container {
+    padding-bottom: 20px;
     border-top: 1px solid white;
+}
+
+.body-container p {
+    padding: 20px 20px 0 20px;
+    font-size: 14px;
     margin-bottom: 0;
 }
 

@@ -20,20 +20,27 @@ class App extends Component {
   render() {
     return (      
       <div className="App">
-        <div className="faqs-container">
+        <div className="navbar"></div>
+        <div className="max-width-container">
           <div className="header-container">
             <h1>Frequently Asked Questions</h1>
           </div>
           {faqs.map((faq, index) => (
             <AccordionItem 
             header={faq.question} 
-            body={faq.answer} 
+            body={faq.answer}
             isOpen={this.state.activeIndex === index} 
             key={index}
             index={index}
             handleClick = {this.handleClick.bind(this)}
             />
           ))}
+        </div>
+        <div className="max-width-container">
+          <div className="header-container">
+            <h1>Contact Us</h1>
+          </div>
+          
         </div>
       </div>
     );
