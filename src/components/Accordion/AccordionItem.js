@@ -14,7 +14,7 @@ class AccordionItem extends Component {
           <h2>{this.props.header}</h2>
           <IosArrowDown 
           className={"arrow-icon " + (this.props.isOpen ? 'open' : '')}
-          color={"#2997FF"} />
+          color={"#c7c7cd"} />
         </div>
 
         <AnimateHeight 

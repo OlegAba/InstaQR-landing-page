@@ -1,16 +1,14 @@
 .AccordionItem {
-    /* background-color: #f2f2f2; */
-    background-color: rgb(28, 28, 30);
+    background-color: #f2f2f7;
     border-radius: 10px;
-    margin-top: 1rem;
+    margin-top: 16px;
     cursor: pointer;
-    color: #f5f5f7;
     overflow: hidden;
 }
 
 .header {
     width: 100%;
-    padding: 15px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,20 +18,15 @@
     font-size: 14px;
     font-weight: bold;
     flex: 15 0 0;
-    padding-right: 1rem;
-}
-
-.AnimateHeight {
-    background-color: rgb(44, 44, 46);
+    padding-right: 16px;
+    margin-bottom: 0;
 }
 
 .AnimateHeight p {
-    padding: 15px;
+    padding: 20px;
     font-size: 14px;
-    border-top: 1px solid rgba(44, 44, 46);
-
-    /* Removes margin-bottom bug caused by AnimateHeight */
-    margin-bottom: 0 !important;
+    border-top: 1px solid white;
+    margin-bottom: 0;
 }
 
 .arrow-icon {
