@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0071f934d059327fbf4897a08b5ee527",
+    "revision": "4b88cbb64611c5f6c10b1b1b15133f36",
     "url": "/InstaQR-landing-page/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InstaQR-landing-page/static/css/2.74189dbb.chunk.css"
   },
   {
-    "revision": "36d79879d26e2fde8da7",
-    "url": "/InstaQR-landing-page/static/css/main.606d376f.chunk.css"
+    "revision": "bdc043e11254ca751d87",
+    "url": "/InstaQR-landing-page/static/css/main.d17afb86.chunk.css"
   },
   {
     "revision": "f1cca870ae3696912b08",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InstaQR-landing-page/static/js/2.845565b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "36d79879d26e2fde8da7",
-    "url": "/InstaQR-landing-page/static/js/main.4c6bf569.chunk.js"
+    "revision": "bdc043e11254ca751d87",
+    "url": "/InstaQR-landing-page/static/js/main.cd933109.chunk.js"
   },
   {
     "revision": "bc5b62eb13c33c7af76b",
