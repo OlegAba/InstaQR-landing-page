@@ -19,8 +19,8 @@ class AccordionItem extends Component {
 
         <AnimateHeight duration={400} height={this.props.isOpen ? 'auto' : 0} >
           <div className="body-container">
-            {this.props.body.map((paragraph, _) => (
-              <p>{paragraph}</p>
+            {this.props.body.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
             ))}
           </div>
         </AnimateHeight>

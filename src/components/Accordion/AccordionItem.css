@@ -1,5 +1,5 @@
 .AccordionItem {
-    background-color: #f2f2f7;
+    background-color: #f2f2f2;
     border-radius: 10px;
     margin-top: 16px;
     cursor: pointer;
@@ -18,7 +18,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border-bottom: 1px solid white; */
 }
 
 .header h2 {
