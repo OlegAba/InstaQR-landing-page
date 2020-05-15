@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/InstaQR-landing-page/precache-manifest.1bfea37bd32d58c0034ec30a78ae37c1.js"
+  "/InstaQR-landing-page/precache-manifest.a851e4f82c7e99478e4007b471854d1d.js"
 );
 
 self.addEventListener('message', (event) => {

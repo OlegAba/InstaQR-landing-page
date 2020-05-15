@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/InstaQR-landing-page/static/css/main.b4a3226b.chunk.css",
+    "main.css": "/InstaQR-landing-page/static/css/main.3fc4136a.chunk.css",
     "main.js": "/InstaQR-landing-page/static/js/main.2d29ae4f.chunk.js",
     "main.js.map": "/InstaQR-landing-page/static/js/main.2d29ae4f.chunk.js.map",
     "runtime-main.js": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js",
@@ -8,15 +8,15 @@
     "static/js/2.f5f0971c.chunk.js": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js",
     "static/js/2.f5f0971c.chunk.js.map": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.map",
     "index.html": "/InstaQR-landing-page/index.html",
-    "precache-manifest.1bfea37bd32d58c0034ec30a78ae37c1.js": "/InstaQR-landing-page/precache-manifest.1bfea37bd32d58c0034ec30a78ae37c1.js",
+    "precache-manifest.a851e4f82c7e99478e4007b471854d1d.js": "/InstaQR-landing-page/precache-manifest.a851e4f82c7e99478e4007b471854d1d.js",
     "service-worker.js": "/InstaQR-landing-page/service-worker.js",
-    "static/css/main.b4a3226b.chunk.css.map": "/InstaQR-landing-page/static/css/main.b4a3226b.chunk.css.map",
+    "static/css/main.3fc4136a.chunk.css.map": "/InstaQR-landing-page/static/css/main.3fc4136a.chunk.css.map",
     "static/js/2.f5f0971c.chunk.js.LICENSE.txt": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f20795a2.js",
     "static/js/2.f5f0971c.chunk.js",
-    "static/css/main.b4a3226b.chunk.css",
+    "static/css/main.3fc4136a.chunk.css",
     "static/js/main.2d29ae4f.chunk.js"
   ]
 }

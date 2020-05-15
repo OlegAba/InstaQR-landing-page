@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "489c4b296c9a6d42aece7a0a2f99eb4c",
+    "revision": "1f63d157526c8a10bb68e3ef25e4c19d",
     "url": "/InstaQR-landing-page/index.html"
   },
   {
-    "revision": "950ef338d239979b11a4",
-    "url": "/InstaQR-landing-page/static/css/main.b4a3226b.chunk.css"
+    "revision": "184754e6143d555772f8",
+    "url": "/InstaQR-landing-page/static/css/main.3fc4136a.chunk.css"
   },
   {
     "revision": "48710d99cf7e21e2cec0",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "950ef338d239979b11a4",
+    "revision": "184754e6143d555772f8",
     "url": "/InstaQR-landing-page/static/js/main.2d29ae4f.chunk.js"
   },
   {
