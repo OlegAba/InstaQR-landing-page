@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/InstaQR-landing-page/static/css/main.efa863cb.chunk.css",
-    "main.js": "/InstaQR-landing-page/static/js/main.aec74321.chunk.js",
-    "main.js.map": "/InstaQR-landing-page/static/js/main.aec74321.chunk.js.map",
+    "main.css": "/InstaQR-landing-page/static/css/main.58a18254.chunk.css",
+    "main.js": "/InstaQR-landing-page/static/js/main.f5674811.chunk.js",
+    "main.js.map": "/InstaQR-landing-page/static/js/main.f5674811.chunk.js.map",
     "runtime-main.js": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js",
     "runtime-main.js.map": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js.map",
     "static/js/2.f5f0971c.chunk.js": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js",
     "static/js/2.f5f0971c.chunk.js.map": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.map",
     "index.html": "/InstaQR-landing-page/index.html",
-    "precache-manifest.1c9a204ba2e9bcc7e488384a1933f7f7.js": "/InstaQR-landing-page/precache-manifest.1c9a204ba2e9bcc7e488384a1933f7f7.js",
+    "precache-manifest.ef5f21f90b726b94d6b9069b78a37272.js": "/InstaQR-landing-page/precache-manifest.ef5f21f90b726b94d6b9069b78a37272.js",
     "service-worker.js": "/InstaQR-landing-page/service-worker.js",
-    "static/css/main.efa863cb.chunk.css.map": "/InstaQR-landing-page/static/css/main.efa863cb.chunk.css.map",
+    "static/css/main.58a18254.chunk.css.map": "/InstaQR-landing-page/static/css/main.58a18254.chunk.css.map",
     "static/js/2.f5f0971c.chunk.js.LICENSE.txt": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f20795a2.js",
     "static/js/2.f5f0971c.chunk.js",
-    "static/css/main.efa863cb.chunk.css",
-    "static/js/main.aec74321.chunk.js"
+    "static/css/main.58a18254.chunk.css",
+    "static/js/main.f5674811.chunk.js"
   ]
 }
