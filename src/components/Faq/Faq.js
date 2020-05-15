@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import AccordionItem from '../../components/Accordion/AccordionItem'
+import AccordionItem from './AccordionItem'
 import faqs from '../../data/faqs.json'
 
 class Faq extends Component {

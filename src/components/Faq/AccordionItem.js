@@ -11,7 +11,9 @@ class AccordionItem extends Component {
     ));
 
     const link = this.props.link != undefined &&
-      <Link to="/contact" className="link">Contact Us</Link>
+      <div className="link-container">
+        <Link to="/contact" className="link">Contact Us</Link>
+      </div>
 
     return (
       <div className="AccordionItem">
@@ -34,7 +36,7 @@ class AccordionItem extends Component {
         >
           <div className="body-container">
             {body}
-            <div className="link-container">{link}</div>
+            {link}
           </div>
         </AnimateHeight>
       </div>

@@ -34,21 +34,26 @@ class ContactUs extends Component {
 
   render() {
     return (
-      <div>
+      <div className="ContactUs">
         <div className="max-width-container">
-          <form
-            className="contact-us-form"
-            onSubmit={this.handleSubmit} 
-            action="https://formspree.io/mqkyanrj" 
-            method="POST"
-          >
-            <label>Email: </label>
-            <input type="email" name="email" />
-            <label>Message: </label>
-            <input type="text" name="message" />
-            {this.state.status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-            {this.state.status === "ERROR" && <p>Ooops! There was an error.</p>}
-          </form>
+          <div className="header-container">
+            <h1>Contact Us</h1>
+          </div>
+          <div className="form-container">
+            <form
+              className="contact-us-form"
+              onSubmit={this.handleSubmit} 
+              action="https://formspree.io/mqkyanrj" 
+              method="POST"
+            >
+              <label>Email: </label>
+              <input type="email" name="email" />
+              <label>Message: </label>
+              <input type="text" name="message" />
+              {this.state.status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+              {this.state.status === "ERROR" && <p>Ooops! There was an error.</p>}
+            </form>
+          </div>
         </div>
       </div>
     );
