@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/InstaQR-landing-page/static/css/main.720061ce.chunk.css",
-    "main.js": "/InstaQR-landing-page/static/js/main.6e3de867.chunk.js",
-    "main.js.map": "/InstaQR-landing-page/static/js/main.6e3de867.chunk.js.map",
+    "main.css": "/InstaQR-landing-page/static/css/main.b4a3226b.chunk.css",
+    "main.js": "/InstaQR-landing-page/static/js/main.2d29ae4f.chunk.js",
+    "main.js.map": "/InstaQR-landing-page/static/js/main.2d29ae4f.chunk.js.map",
     "runtime-main.js": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js",
     "runtime-main.js.map": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js.map",
-    "static/css/2.74189dbb.chunk.css": "/InstaQR-landing-page/static/css/2.74189dbb.chunk.css",
-    "static/js/2.845565b1.chunk.js": "/InstaQR-landing-page/static/js/2.845565b1.chunk.js",
-    "static/js/2.845565b1.chunk.js.map": "/InstaQR-landing-page/static/js/2.845565b1.chunk.js.map",
+    "static/js/2.f5f0971c.chunk.js": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js",
+    "static/js/2.f5f0971c.chunk.js.map": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.map",
     "index.html": "/InstaQR-landing-page/index.html",
-    "precache-manifest.dac275d8db50a78f532a842aea750018.js": "/InstaQR-landing-page/precache-manifest.dac275d8db50a78f532a842aea750018.js",
+    "precache-manifest.1bfea37bd32d58c0034ec30a78ae37c1.js": "/InstaQR-landing-page/precache-manifest.1bfea37bd32d58c0034ec30a78ae37c1.js",
     "service-worker.js": "/InstaQR-landing-page/service-worker.js",
-    "static/css/2.74189dbb.chunk.css.map": "/InstaQR-landing-page/static/css/2.74189dbb.chunk.css.map",
-    "static/css/main.720061ce.chunk.css.map": "/InstaQR-landing-page/static/css/main.720061ce.chunk.css.map",
-    "static/js/2.845565b1.chunk.js.LICENSE.txt": "/InstaQR-landing-page/static/js/2.845565b1.chunk.js.LICENSE.txt"
+    "static/css/main.b4a3226b.chunk.css.map": "/InstaQR-landing-page/static/css/main.b4a3226b.chunk.css.map",
+    "static/js/2.f5f0971c.chunk.js.LICENSE.txt": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f20795a2.js",
-    "static/css/2.74189dbb.chunk.css",
-    "static/js/2.845565b1.chunk.js",
-    "static/css/main.720061ce.chunk.css",
-    "static/js/main.6e3de867.chunk.js"
+    "static/js/2.f5f0971c.chunk.js",
+    "static/css/main.b4a3226b.chunk.css",
+    "static/js/main.2d29ae4f.chunk.js"
   ]
 }
