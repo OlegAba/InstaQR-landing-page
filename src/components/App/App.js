@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import { Route } from 'react-router-dom';
 import LandingPage from '../LandingPage';
 import Faq from '../Faq/Faq';
-import ContactUs from '../ContactUs';
+import ContactUs from '../ContactUs/ContactUs';
 import './App.css';
 
 class App extends Component {

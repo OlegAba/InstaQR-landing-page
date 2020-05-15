@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './ContactUs.css';
 
 class ContactUs extends Component {
 
@@ -33,12 +34,15 @@ class ContactUs extends Component {
   }
 
   render() {
+    
     return (
       <div className="ContactUs">
         <div className="max-width-container">
           <div className="header-container">
             <h1>Contact Us</h1>
+            <p>Got a question? We'd love to hear from you. Submit the form and we'll response as soon as possible</p>
           </div>
+
           <div className="form-container">
             <form
               className="contact-us-form"
@@ -46,10 +50,18 @@ class ContactUs extends Component {
               action="https://formspree.io/mqkyanrj" 
               method="POST"
             >
-              <label>Email: </label>
-              <input type="email" name="email" />
-              <label>Message: </label>
-              <input type="text" name="message" />
+              <div className="input-container">
+                <label>Name </label>
+                <input required type="text" name="name" />
+              </div>
+              <div required className="input-container">
+                <label>Email </label>
+                <input type="email" name="email" />
+              </div>
+              <div required className="input-container">
+                <label>Message </label>
+                <textarea type="text" name="message" />
+              </div>
               {this.state.status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
               {this.state.status === "ERROR" && <p>Ooops! There was an error.</p>}
             </form>
