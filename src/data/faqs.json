@@ -52,6 +52,14 @@
     {
         "question": "Why does the QR code expand and get cropped when my live wallpaper is activated?",
         "answer": [ "The video portion (where the QR code is located) of a live photo expands by about 8%. Make sure to preview the QR code when setting the wallpaper and make sure it is not getting cropped." ]
+    },
+    {
+        "question": "I couldn't find the answer to my question.",
+        "answer": [ "If you have any questions that we haven't been able to answer, we would love to hear from you. Please complete the form by following the link below and a we will be in touch with you soon." ],
+        "link": {
+            "title": "Contact Us",
+            "url": "/contact"
+        }
     }
 ]
 

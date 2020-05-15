@@ -1,10 +1,9 @@
 import React, {Component} from 'react';
 import { Route } from 'react-router-dom';
-
-import './App.css';
 import LandingPage from '../LandingPage';
 import Faq from '../Faq/Faq';
 import ContactUs from '../ContactUs';
+import './App.css';
 
 class App extends Component {
   render() {
