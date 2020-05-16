@@ -6,14 +6,13 @@ class ContactUs extends Component {
   constructor(props) {
     super(props);
     this.handleSubmit = this.handleSubmit.bind(this);
-
-    this.state = {
-      status: ""
-    }
+    this.state = { sent: false }
   }
 
   handleSubmit = (event) => {
     event.preventDefault();
+    if (this.state.sent) { return }
+
     const form = event.target;
     const data = new FormData(form);
     const xhr = new XMLHttpRequest();
@@ -24,9 +23,9 @@ class ContactUs extends Component {
       if (xhr.readyState !== XMLHttpRequest.DONE) return;
       if (xhr.status === 200) {
         form.reset();
-        this.setState({ status: "SUCCESS" });
+        this.setState({ sent: true });
       } else {
-        this.setState({ status: "ERROR" });
+        alert("There was an error sending your message. Please try again");
       }
     };
 
@@ -34,7 +33,11 @@ class ContactUs extends Component {
   }
 
   render() {
-    
+    const button = 
+      <button className = {this.state.sent ? "success" : ""}>
+        {this.state.sent ? "Thanks!" : "Submit"}
+      </button>
+
     return (
       <div className="ContactUs">
         <div className="max-width-container">
@@ -50,7 +53,7 @@ class ContactUs extends Component {
               action="https://formspree.io/mqkyanrj" 
               method="POST"
             >
-              <div className="input-container">
+              <div required className="input-container">
                 <label>Name </label>
                 <input required type="text" name="name" />
               </div>
@@ -62,8 +65,7 @@ class ContactUs extends Component {
                 <label>Message </label>
                 <textarea type="text" name="message" />
               </div>
-              {this.state.status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-              {this.state.status === "ERROR" && <p>Ooops! There was an error.</p>}
+              {button}
             </form>
           </div>
         </div>
