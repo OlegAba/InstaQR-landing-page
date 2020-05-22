@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/InstaQR-landing-page/static/css/main.fa7f8eae.chunk.css",
-    "main.js": "/InstaQR-landing-page/static/js/main.bdfe5e74.chunk.js",
-    "main.js.map": "/InstaQR-landing-page/static/js/main.bdfe5e74.chunk.js.map",
+    "main.js": "/InstaQR-landing-page/static/js/main.ce6b7376.chunk.js",
+    "main.js.map": "/InstaQR-landing-page/static/js/main.ce6b7376.chunk.js.map",
     "runtime-main.js": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js",
     "runtime-main.js.map": "/InstaQR-landing-page/static/js/runtime-main.f20795a2.js.map",
-    "static/js/2.f5f0971c.chunk.js": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js",
-    "static/js/2.f5f0971c.chunk.js.map": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.map",
+    "static/js/2.200acb0c.chunk.js": "/InstaQR-landing-page/static/js/2.200acb0c.chunk.js",
+    "static/js/2.200acb0c.chunk.js.map": "/InstaQR-landing-page/static/js/2.200acb0c.chunk.js.map",
     "index.html": "/InstaQR-landing-page/index.html",
-    "precache-manifest.5a986711064b9569022c7dc2d7950f0d.js": "/InstaQR-landing-page/precache-manifest.5a986711064b9569022c7dc2d7950f0d.js",
+    "precache-manifest.b0b131ef540dbcb17a24f0b8f65ba955.js": "/InstaQR-landing-page/precache-manifest.b0b131ef540dbcb17a24f0b8f65ba955.js",
     "service-worker.js": "/InstaQR-landing-page/service-worker.js",
     "static/css/main.fa7f8eae.chunk.css.map": "/InstaQR-landing-page/static/css/main.fa7f8eae.chunk.css.map",
-    "static/js/2.f5f0971c.chunk.js.LICENSE.txt": "/InstaQR-landing-page/static/js/2.f5f0971c.chunk.js.LICENSE.txt"
+    "static/js/2.200acb0c.chunk.js.LICENSE.txt": "/InstaQR-landing-page/static/js/2.200acb0c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f20795a2.js",
-    "static/js/2.f5f0971c.chunk.js",
+    "static/js/2.200acb0c.chunk.js",
     "static/css/main.fa7f8eae.chunk.css",
-    "static/js/main.bdfe5e74.chunk.js"
+    "static/js/main.ce6b7376.chunk.js"
   ]
 }
